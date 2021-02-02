@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 const program = require('commander')
+const chalk = require('chalk')
+// console.log(chalk.red('\n × Template does not exit!'))
 
 console.log()
 console.log('kada-cli-version', require('../package').version, '\n')

@@ -2,18 +2,9 @@
   "vue": {
     "name": "模板1",
     "value": "vue",
-    "git": "https://github.com/kkxiaojun/vue-tpl.git",
-    "options": []
-  },
-  "vue-multi-page": {
-    "name": "模板2",
-    "value": "vue",
-    "git": "https://github.com/kkxiaojun/vue-multi-page.git"
-  },
-  "rollup": {
-    "name": "模板3",
-    "value": "rollup",
-    "git": "https://github.com/kkxiaojun/rollup-tpl.git",
+    "git": "http://10.0.10.51:81/frontend/wxapp-kada2.git",
+    "yy": "git@10.0.10.51:frontend/wxapp-kada2.git",
+    "xx": "http://10.0.10.51:81/frontend/wxapp-kada2.git",
     "options": []
   }
 }

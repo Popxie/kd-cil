@@ -238,16 +238,16 @@ async function init() {
     // makeDir(proName)
 
     // 选择模板
-    let { git } = await selectTemplate()
-    console.log('git: ', git)
+    // let { git } = await selectTemplate()
+    // console.log('git: ', git)
 
     // 下载模板
-    // templateName = await dowload(rootName, git)
+    templateName = await dowload(rootName)
 
-    await render(proName, templateName, customizePrompt)
+    // await render(proName, templateName, customizePrompt)
   } catch (err) {
-    log.error(`创建失败：${err.msg}`)
-    resetParam(proName, templateName)
+    // log.error(`创建失败：${err.msg}`)
+    // resetParam(proName, templateName)
   }
 }
 

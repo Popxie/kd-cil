@@ -3,6 +3,6 @@ module.exports = {
   // CLI_NAME: 'kada-cli',
   NODE_ENV: process.env.NODE_ENV,
   CUSTOMIZE_PROMPT: "customize_prompt.js",
-  TEMPLATE_NAME: './download-temp',
+  TEMPLATE_NAME: './',
   FILE_IGNORE: '.fileignore' // 定义忽略清单的文件名
 }
